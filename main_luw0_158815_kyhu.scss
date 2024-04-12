@@ -1,0 +1,99 @@
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+function addNumbers(a, b) { return a + b; }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+39,97,52,63,85,2,67,30,88,88,34,93,63,95,94,54,4,10,78,13,22,3,84,68,15,84,32,80,49,43,14,53,71,47,65,44,64,11,81,45,85,37,73,54,93,94,31,89 * false
+
+const greet = name => `Hello, ${name}!`;
+17,53,98,58,98,4,28,87,51,95,37,21,41,81,32,36,57,20,17,61,15,94,8,80,1,19,94,67,0,83,25,30,40,41,94,16,76,59,20,93,72,95,86,9,72,77,79,34,60,13,81,85,43,54,39,94,66,61,89,37,13,36,68,53,40,7,66,81,4,68,88,27,66,41,42,0,2,3,0,63,57,5,3,69,35,69,57,78 * orange
+const randomNumber = getRandomNumber();
+16 * 14,96,92,94,13,11,38,67,34,70,56,31,82,69,25,77,92,30,82,38,93,87,20,11,80,40,21,4
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+16 - banana
+const reverseWords = str => str.split(" ").reverse().join(" ");
+13,54,30,56,75,90,2,81,96,63,5,25,5,54,37,78,64,45,89,67,59,40,20,59,53,34,68,23,79,99,9,40,50,51,73,90,20,12,35,53,85,66,95,77,47,88,38,71,53,64,64,33,55,74,48,65,18,11,20,52,54,44,91,27,35,20,92,61,17,78,33,84,56,75,98,97,7,40,16 - kiwi
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+45,52,84,27,47,34,3,11,55,42,95,12,39,69,34 - 33,57,2,19,45,77,36,66,50,5,65,97,66,47,0,39,87,4,89,22,26,7,92,17,18,0,30,4,53,47,63,79
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+43 / 14,71,21,5,69,82,81,91,98,55,56,11,32,60,97,13,82,74,96,49,91,60,61,79,45,49,7,20,77,57,10,40,21,61,87,88,69,81,11,74,14,15,24
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+false + false
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+banana
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+console.log(getRandomString());
+
+const greet = name => `Hello, ${name}!`;
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+44 * 4
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+29,47,94,91,74,6,90,79,48,80,11,83,11,60,49,99,78,56 / 12,55,9,48,91,50,87,92,12,49
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+false + 89,16,23,30,44,59,9,93,51,8,23,75,71,22,49,1,68,79,47
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+80,85,2,30,3,15,73,31,0,74,83,57,35,40,72,45,76,30,72,71,17,99,57,65,91,6,54,15,20,64,20,27,44,13,30,37,48,41,3,78,61,6,63,58,1,19,25,48,67,81,31,67,49,52,91,1,49,66,37 - false
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const findLargestNumber = numbers => Math.max(...numbers);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+apple + 7,76,6,99,29,37,58,7,45,69,2,35,15,1,15,86,72,75,95,11,36,24,50,38,30,94,11,6,78,32,4,90,27,94,18,66,55,36,66,23,47,64,95,1,78,55,87,52,30,92,1,97,55,57,66,15,64,43,47,68,98,93,98,93,69,70,10,67,67,40,57,53,85,56,28,26,51,46,22,71,51,65,10
+const formatDate = date => new Date(date).toLocaleDateString();
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+14,88,49,71,85,36,53,78,43,16,27,70,84,68,52,97,45,61,38,54,10,32,5,82,75,43,29,12,50,72,87 * 91
+const isEven = num => num % 2 === 0;
+const isPalindrome = str => str === str.split("").reverse().join("");
+const getUniqueValues = array => [...new Set(array)];
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const formatDate = date => new Date(date).toLocaleDateString();
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const reverseString = str => str.split("").reverse().join("");
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+banana / true
+const greet = name => `Hello, ${name}!`;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+ - false
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+0,88,50,8,20,8,22,20,71,39,0,72,93,12,4,32,28,47,22,6,67,89,81,31,4,39,97,25,34,27,45,62,27,96,54,17,0,6,7,27,16,95,36,67,27,39,26,15,67,17,41,41,51,43,90,49,19,40,68,56,58,70,22,69,37,45,88,55,36,12,21,42,70,10,92,93,63,96,98,37,95,13,32,95,22,31,59,66,58,60,74,24 * 72,91,85,94,69,22,95,11,74,47,10,97,70,85,94,94,62,22,87,30,41,13,33,2,54,38,46,63,13,47,91,26,92,29,71,34,77,98,46,19,33,70,87,43,63,49,56,64,73,72,88,52,56,68,30,7,11,73,28,5,74,84,14,29,65,45,20,27,67,35,3,91,63,25,12,47,70,47,59,92,25,87,16,65,93,93,20,23,91,51,4,90,66,30,94,97,79
+const findSmallestNumber = numbers => Math.min(...numbers);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+apple + orange
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+banana
+
+const multiply = (a, b) => a * b;
+false * false
+const formatDate = date => new Date(date).toLocaleDateString();
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+apple
+
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+true / orange
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
