@@ -1,0 +1,29 @@
+grape
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+apple
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const greet = name => `Hello, ${name}!`;
+kiwi / 54
+const randomNumber = getRandomNumber();
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+36,68,20,88,9,50,61,54,3,62,6,53,75,84,81,90,90,48,89,78,15,63,19,82,36,61,18,3,0,58,57,91,5,77,17,50,73,30,0,7,48,99,88,69,50,50,2,5,17,42,23,97,59,34,38,20,90,26,62 / 99
+
+console.log(getRandomString());
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+orange
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+42 * 44
+const getUniqueValues = array => [...new Set(array)];
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const isEven = num => num % 2 === 0;
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const getUniqueValues = array => [...new Set(array)];
+const getRandomElement = array => array[getRandomIndex(array)];
+const getRandomSubset = (array, size) => array.slice(0, size);
