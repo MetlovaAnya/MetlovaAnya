@@ -1,0 +1,61 @@
+true * banana
+const sum = (a, b) => a + b;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+function addNumbers(a, b) { return a + b; }
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const findSmallestNumber = numbers => Math.min(...numbers);
+const sum = (a, b) => a + b;
+const reverseString = str => str.split("").reverse().join("");
+const isPalindrome = str => str === str.split("").reverse().join("");
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+true - false
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+let array = getRandomArray(); array.forEach(item => console.log(item));
+false + 89,41,76,18,51,69,46,38,46,68,83,44,14,49,2,30,63,45,29,59,60,32,27,48,59,88,23,75,5,65,37,3,56,52,26,67,84,11,80,80,88,15,85,35,92,92,64,87,4,87,57,10,11,40,49,38,33,41,8,38,51,75,47,20,23,40,17,51,89,16,12,68,63,88,70,31,47
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+apple
+
+console.log(getRandomString());
+grape
+
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+apple
+
+const multiply = (a, b) => a * b;
+63,22,21,96,92,21,57,36,94,31,79,74,25,26,61,84,9,13,59,24,69,66,48,35,85,7,70,66,6,98,33,87,7,77,50,22,93,6,89,36,6,12,35,66,24,94,92,35,27 * 6
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const isEven = num => num % 2 === 0;
+const isEven = num => num % 2 === 0;
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const greet = name => `Hello, ${name}!`;
+const findSmallestNumber = numbers => Math.min(...numbers);
+false + 4,47,95,29,9,85,51,82,52,6,33,43,16,50,18,62,13,28
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const reverseString = str => str.split("").reverse().join("");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+14 * 38
+
+// This is a comment
+class MyClass { constructor() { this.property = getRandomString(); } }
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+banana - kiwi
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const randomNumber = getRandomNumber();
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+kiwi
+
+const capitalizeString = str => str.toUpperCase();
